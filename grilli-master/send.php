@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_body .= "Reservation Time: $time\n";
     $email_body .= "Message: $message\n";
 
-    // Send email
+
     if (mail($to, $subject, $email_body)) {
         echo "Thank you for your booking. We will get in touch with you shortly!";
     } else {
