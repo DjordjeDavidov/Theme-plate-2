@@ -1588,7 +1588,7 @@ textarea.input-field {
     margin-inline: auto;
   }
 
-
+wrapper
 
   /**
    * FOOTER
@@ -1615,7 +1615,6 @@ textarea.input-field {
   }
 
 }
-
 
 
 
@@ -1899,7 +1898,7 @@ textarea.input-field {
 
   }
 
-
+reservation
 
   /**
    * REUSED STYLE
@@ -1912,6 +1911,21 @@ textarea.input-field {
     margin-inline: auto;
   }
 
+  .container1 {
+    margin-top: 40vh;
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container1 {
+      max-width: 1200px;
+      width: 100%;
+      margin-inline: auto;
+    }
+    
+  }
 
 
   /**
